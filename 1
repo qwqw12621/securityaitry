@@ -1,2 +1,10 @@
-(venv) PS C:\Users\user\Downloads\t> pip install torch torchinfo onnx netron
-Fatal error in launcher: Unable to create process using '"C:\Users\user\Desktop\final_project\venv\Scripts\python.exe"  "C:\Users\user\Downloads\t\venv\Scripts\pip.exe" install torch torchinfo onnx netron': ???????????
+(venv) PS C:\Users\user\Desktop\final_project> python export_model_arch.py
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\final_project\export_model_arch.py", line 3, in <module>
+    import torch
+  File "C:\Users\user\Desktop\final_project\venv\Lib\site-packages\torch\__init__.py", line 262, in <module>
+    _load_dll_libraries()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\Desktop\final_project\venv\Lib\site-packages\torch\__init__.py", line 258, in _load_dll_libraries
+    raise err
+OSError: [WinError 126] 找不到指定的模組。 Error loading "C:\Users\user\Desktop\final_project\venv\Lib\site-packages\torch\lib\torch_python.dll" or one of its dependencies.
